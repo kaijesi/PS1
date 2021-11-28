@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Warranty__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to mark as true if a warranty check should be performed on this case upon creation or update.</description>
+    <externalId>false</externalId>
+    <label>Validate Warranty</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
