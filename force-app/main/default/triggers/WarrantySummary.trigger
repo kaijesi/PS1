@@ -2,8 +2,9 @@
 trigger WarrantySummary on Case (before insert, before update) {
     for (Case c : Trigger.new) {
         
-        // Only run this on cases where the warranty validation checkboxis set to true
-        if (c.Validate_Warranty__c = true) {
+        // Only run this on cases where the warranty validation checkboxis set to true and necessary information has been filled out
+        if (c.Validate_Warranty__c = true && c.Product_Purchase_Date__c != null && c.Product_Total_Warranty_Days__c != null) {
+
             // Set a string that shows the formatted Purchase Date
             String purchaseDate             = c.Product_Purchase_Date__c.format();
         
