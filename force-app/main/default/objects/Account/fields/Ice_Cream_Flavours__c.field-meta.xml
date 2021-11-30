@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ice_Cream_Flavours__c</fullName>
+    <externalId>false</externalId>
+    <label>Ice Cream Flavours</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chocolate</fullName>
+                <default>false</default>
+                <label>Chocolate</label>
+            </value>
+            <value>
+                <fullName>Vanilla</fullName>
+                <default>false</default>
+                <label>Vanilla</label>
+            </value>
+            <value>
+                <fullName>Strawberry</fullName>
+                <default>false</default>
+                <label>Strawberry</label>
+            </value>
+            <value>
+                <fullName>Amarena</fullName>
+                <default>false</default>
+                <label>Amarena</label>
+            </value>
+            <value>
+                <fullName>Stracciatella</fullName>
+                <default>false</default>
+                <label>Stracciatella</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
