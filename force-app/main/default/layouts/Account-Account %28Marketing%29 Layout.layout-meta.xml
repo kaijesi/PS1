@@ -33,6 +33,10 @@
                 <behavior>Edit</behavior>
                 <field>Match_Billing_Address__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Flavour_Counter__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -168,6 +172,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Description</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Ice_Cream_Flavours__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
