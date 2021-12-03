@@ -4,7 +4,7 @@ orgname="$1"
 echo "$orgname"
 if [ -z "$orgname" ] ;  then
 
-    echo "No org name provided. Usage = ./scripts/CreateScratchOrg.sh ORGNAME"
+    echo "No org name provided. Usage = ./scripts/newscratch.sh ORGNAME"
 
 else
 
@@ -16,8 +16,8 @@ else
 
     sfdx force:user:permset:assign -n DX_Changes -u $orgname
 
-    sfdx force:org:open -u $orgname
-
     sfdx force:org:list
+
+    sfdx force:org:open -u $orgname
 
 fi
