@@ -16,10 +16,16 @@ public class LeadingCompetitorTest {
 
         // Populate name fields
         opp.Competitor_1__c = 'Amazon';
-        opp.Competitor_2__c = 'Amazon';
-        opp.Competitor_3__c = 'Amazon';
+        opp.Competitor_2__c = 'Google';
+        opp.Competitor_3__c = 'Microsoft';
 
+        // Insert opportunity
         insert opp;
         
+        // Check if leading competitor was filled out correctly
+        Opportunity insertedOpp = [SELECT Leading_Competitor__c FROM Opportunity WHERE Id = :opp.Id];
+        System.assertEquals('Amazon', insertedOpp.Leading_Competitor__c, 'Leading competitor incorrect');
+
+
     }
 }

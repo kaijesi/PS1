@@ -14,6 +14,11 @@ public class ClosedOpportunityTriggerTest {
 
         insert opp;
 
+        // Check if task was filled out properly
+        Task checkTask = [SELECT Subject, WhatId FROM Task WHERE WhatId = :opp.Id AND Subject = 'Follow Up Test Task'];
+        System.assertEquals('Follow Up Test Task', checkTask.Subject, 'Subject not filled out correctly');
+        System.assertEquals(opp.Id, checkTask.WhatId, 'Task not related to correct Opp');
+
 
         
     }
