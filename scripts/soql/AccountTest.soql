@@ -1,0 +1,7 @@
+[SELECT Id 
+                                        FROM Opportunity 
+                                        WHERE Amount >= :newOpp.Amount * 0.9
+                                        AND Amount <= :newOpp.Amount * 1.1
+                                        AND Account.Industry = :newOpp.Account.Industry
+                                        AND StageName = 'Closed Won'
+                                        AND CloseDate = LAST_YEAR];
