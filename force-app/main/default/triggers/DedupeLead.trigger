@@ -28,9 +28,12 @@ trigger DedupeLead on Lead (before insert) {
                                                 AND      FirstName LIKE :firstNameSearch
                                                 AND      Account.Name LIKE :companyNameSearch)];
 
+                System.debug('Dupes found: ' + potentialDupes);
+
                 // If at least one Contact was found, assign the Lead to the Data Quality Queue                                
                 if (potentialDupes.size() > 0)   {
                     lead.OwnerId = dataQualityQueue.Id;
+                    System.debug('Owner Changed to DQ queue: ' + dataQualityQueue.Id);
                     String leadDescription = 'Potential duplicates: \n';
                     for (Contact dupeContact : potentialDupes)  {
                         leadDescription += dupeContact.Name + '\n' 
