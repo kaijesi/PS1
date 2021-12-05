@@ -9,11 +9,6 @@ trigger DedupeAccount on Account (after insert) {
         c.Subject = 'Dedupe this account';
         c.AccountId = a.Id;
         c.OwnerId = UserInfo.getUserId();
-        
-        // Following lines just added so the WarrantySummmary trigger works for demo
-        c.Product_Purchase_Date__c = Date.today();
-        c.Product_Total_Warranty_Days__c = 100;
-        c.Product_Has_Extended_Warranty__c = true;
         insert c;
     }
 }
