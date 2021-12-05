@@ -1,7 +1,7 @@
 #!/bin/bash
 
 orgname="$1"
-echo "$orgname"
+
 if [ -z "$orgname" ] ;  then
 
     echo "No org name provided. Usage = ./scripts/newscratch.sh ORGNAME"
