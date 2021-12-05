@@ -1,4 +1,4 @@
-trigger ClosedOpportunityTrigger on Opportunity (after insert, after update) {
+trigger ClosedOpportunityTrigger on Opportunity (after insert, before update) {
     List<Task> taskList = new List<Task>();
     
     for (Opportunity opp : Trigger.New) {
@@ -9,5 +9,5 @@ trigger ClosedOpportunityTrigger on Opportunity (after insert, after update) {
             taskList.add(t);
         }
     }
-    insert taskList;  
+    insert taskList;
 }
