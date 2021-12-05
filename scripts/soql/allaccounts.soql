@@ -1,0 +1,2 @@
+SELECT Id, Name, Industry, CreatedById, CreatedDate, LastModifiedById
+  FROM Account

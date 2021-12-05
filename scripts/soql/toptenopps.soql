@@ -1,0 +1,5 @@
+SELECT Amount, Name, StageName
+  FROM Opportunity
+  WHERE Amount > 10000
+  ORDER BY Amount DESC NULLS LAST
+  LIMIT 10
