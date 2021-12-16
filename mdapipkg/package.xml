@@ -26,6 +26,24 @@
         <name>GlobalValueSet</name>
     </types>
     <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
+        <members>Case-Case Layout</members>
+        <members>CaseClose-Close Case Layout</members>
+        <members>Comparable_Opportunity__c-Comparable Opportunity Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
+        <members>Test_Object__c-Test Object Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
         <members>Account.Flavour_Counter__c</members>
         <members>Account.Ice_Cream_Flavours__c</members>
         <members>Account.Match_Billing_Address__c</members>
