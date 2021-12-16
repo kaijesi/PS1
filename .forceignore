@@ -4,8 +4,10 @@
 
 package.xml
 
-# Remove comment below to exclude profiles from being tracked or included in the deployments
-# force-app/main/default/profiles
+# Exclude profiles, perm sets, layouts
+#force-app/main/default/profiles
+#force-app/main/default/permissionsets
+#force-app/main/default/layouts
 
 # LWC configuration files
 **/jsconfig.json
