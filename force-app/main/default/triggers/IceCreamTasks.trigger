@@ -1,6 +1,8 @@
 // Needs after insert as we need Account ID later on
 trigger IceCreamTasks on Account (after insert, before update) {
+    
     for (Account acc : Trigger.new) {
+
         // Find out how many ice cream flavours were selected
         List<String> flavours;
 

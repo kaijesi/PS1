@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>AccountAddressTriggerTest</members>
+    <members>AppleWatchTest</members>
+    <members>CaseClosureTest</members>
+    <members>CheckSecretInformationTest</members>
+    <members>ClosedOpportunityTriggerTest</members>
+    <members>ComparableOpportunitiesTest</members>
+    <members>DedupeAccountTest</members>
+    <members>DedupeLeadTest</members>
+    <members>HelloWorldTest</members>
+    <members>IceCreamTasksTest</members>
+    <members>LeadingCompetitorTest</members>
+    <members>MultiSelectPicklistChoiceCounterTest</members>
+    <members>OpportunitySalesTeamTest</members>
+    <members>WarrantySummaryTest</members>
+  </types>
+  <types>
+    <name>DuplicateRule</name>
+    <members>Lead.Standard_Lead_Duplicate_Rule</members>
+  </types>
+  <types>
+    <name>GlobalValueSet</name>
+    <members>Competitor_Companies</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Account-Account %28Marketing%29 Layout</members>
+    <members>Account-Account %28Sales%29 Layout</members>
+    <members>Account-Account %28Support%29 Layout</members>
+    <members>Account-Account Layout</members>
+    <members>Case-Case %28Marketing%29 Layout</members>
+    <members>Case-Case %28Sales%29 Layout</members>
+    <members>Case-Case %28Support%29 Layout</members>
+    <members>Case-Case Layout</members>
+    <members>CaseClose-Close Case Layout</members>
+    <members>Comparable_Opportunity__c-Comparable Opportunity Layout</members>
+    <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+    <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+    <members>Opportunity-Opportunity %28Support%29 Layout</members>
+    <members>Opportunity-Opportunity Layout</members>
+    <members>Test_Object__c-Test Object Layout</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Account</members>
+    <members>Case</members>
+    <members>Comparable_Opportunity__c</members>
+    <members>Opportunity</members>
+    <members>Test_Object__c</members>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>Account</members>
+    <members>Test_Object__c</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Comparable_Opportunity__c</members>
+    <members>Test_Object__c</members>
+  </types>
+  <types>
+    <name>PermissionSet</name>
+    <members>DX_Changes</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+    <members>Read Only</members>
+  </types>
+  <types>
+    <name>Queue</name>
+    <members>Data_Quality</members>
+  </types>
+  <types>
+    <name>Settings</name>
+    <members>Opportunity</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>Test_Object__c</members>
+  </types>
+  <types>
+    <name>ApexTrigger</name>
+    <members>AccountAddressTrigger</members>
+    <members>AppleWatch</members>
+    <members>CaseClosure</members>
+    <members>CheckSecretInformation</members>
+    <members>ClosedOpportunityTrigger</members>
+    <members>ComparableOpportunities</members>
+    <members>DedupeAccount</members>
+    <members>DedupeLead</members>
+    <members>HelloWorld</members>
+    <members>IceCreamTasks</members>
+    <members>LeadDisqualification</members>
+    <members>LeadingCompetitor</members>
+    <members>MultiSelectPicklistChoiceCounter</members>
+    <members>OpportunitySalesTeam</members>
+    <members>WarrantySummary</members>
+  </types>
+  <types>
+    <name>Workflow</name>
+    <members>Test_Object__c</members>
+  </types>
+  <version>49.0</version>
+</Package>
